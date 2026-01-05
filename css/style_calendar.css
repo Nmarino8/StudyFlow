@@ -1,0 +1,76 @@
+.calendar-page {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.weekly-calendar {
+    width: 900px;
+    background: white;
+    border-radius: 16px;
+    padding: 20px;
+}
+
+.calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.calendar-header button {
+    background: #222;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#calendar-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Week layout */
+.week-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+}
+
+.day-box {
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 10px;
+    height: 110px;
+    position: relative;
+    cursor: pointer;
+}
+
+.day-name {
+    font-size: 14px;
+    color: #777;
+}
+
+.day-number {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Event count bubble */
+.event-count {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background: #ff4d4d;
+    color: white;
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 50%;
+}
+
+/* Highlight today */
+.today {
+    border: 2px solid #4a90e2;
+}
