@@ -43,6 +43,7 @@ A **privacy-first weekly study planner** for students. Organize your study sched
 - [Getting Started](#getting-started)
 - [Usage](#usage)
 - [Contributing](#contributing)
+- [License](#license)
 
 ---
 
@@ -151,6 +152,32 @@ git push origin feature/my-feature
 >	All data is stored locally in the browser; no cloud storage is used.
 >	Dexie.js simplifies IndexedDB interactions to make local storage reliable.
 >	Test events can be removed at any time by clearing the database via browser dev tools.
+
+---
+
+## License
+
+**StudyFlow** is licensed for **personal, educational, and contribution purposes only**.  
+You may **use, modify, and contribute** to the project locally, but **commercial use, resale, or distribution for profit is prohibited**.
+
+### License Text
+
+Copyright (c) 2026 [Niko Marinović](https://github.com/Nmarino8)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to:
+
+- Use the Software **locally for personal or educational purposes**  
+- Modify, merge, and contribute to the Software  
+
+**Restrictions:**  
+
+- You may **not sell, distribute, or use the Software for commercial purposes**  
+- You may **not copy the design or UI** for commercial projects  
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+> [!WARNING]
+> THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT.
 
 ---
 
